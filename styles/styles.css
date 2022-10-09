@@ -1,0 +1,684 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.contact {
+  height: 7vh;
+  background: #000000;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #969696;
+}
+.contact .container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.line {
+  outline: none;
+  height: 10px;
+  width: 2px;
+  border-right: 2px solid #969696;
+  margin: 0 15px;
+}
+.left__content {
+  display: flex;
+  align-items: center;
+}
+.contact__link {
+  text-decoration: none;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: right;
+  color: #969696;
+  display: flex;
+}
+.contact__link img {
+  margin-right: 5px;
+}
+.main {
+  color: #ffffff;
+  font-family: "PT Sans", sans-serif;
+}
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+header {
+  height: 10vh;
+  background-color: #0f0f0f;
+  text-decoration: none;
+  color: #fff;
+}
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+header nav {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.header__link:hover {
+  background: #1f1f1f;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  transition: 0.3s ease-in;
+  color: #ffffff;
+}
+header a {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #969696;
+}
+.burger__icon {
+  width: 25px;
+  display: none;
+}
+main {
+  height: 90vh;
+  background-color: #0f0f0f;
+  background-image: url(../images/bgi.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.ramka {
+  width: 320px;
+  height: 320px;
+  border: 4px solid #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 80px;
+}
+.ramka img {
+  margin-bottom: 8px;
+}
+.ramka hr {
+  margin-bottom: 8px;
+}
+.subtitle__ramka {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+}
+main > p {
+  width: 720px;
+  text-align: center;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  text-transform: uppercase;
+}
+.season {
+  background-color: #000000;
+  color: #ffffff;
+}
+.top {
+  height: 85vh;
+  display: flex;
+}
+.top .left {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0 20px;
+}
+.top .left h1 {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-top: 30px;
+}
+.top .left hr {
+  margin: 25px 0;
+}
+.clocks {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+.new .container .clocks .clock {
+  margin-bottom: 20px;
+}
+.clock div {
+  background-color: #191b1c;
+  padding: 55px 22px;
+}
+.clock p {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.clock p + p {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  color: #d0d0d0;
+}
+.top .right {
+  width: 45%;
+  background-image: url(../images/Rectangle\ 8.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 100px;
+}
+.top .right h1 {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.top .right hr {
+  margin: 30px 0;
+}
+.top .right button {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: none;
+  padding: 5px 20px;
+  border: 1px solid #ffffff;
+  cursor: pointer;
+}
+.bottom {
+  height: 70vh;
+  display: flex;
+  width: 100%;
+}
+.bottom .left {
+  background-image: url(../images/Rectangle\ 9.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 45%;
+}
+.bottom .right {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.bottom .right h1 {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.bottom .right h1 {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.bottom .right p {
+  width: 470px;
+  text-align: center;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: center;
+  color: #ffffff;
+}
+.bottom .right hr {
+  margin: 40px 0;
+}
+.bottom .right button {
+  margin-top: 70px;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: none;
+  border: 1px solid #ffffff;
+  padding: 5px 20px;
+  cursor: pointer;
+}
+.new {
+  background-color: #000000;
+  color: #ffffff;
+}
+.new .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-bottom: 80px;
+}
+.new .container h1 {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding-top: 100px;
+}
+.new .container hr {
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+.brands {
+  background: #0f0f0f;
+  color: #ffffff;
+}
+.brands .container {
+  /* height: 30vh; */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.brands .container h1 {
+  padding-top: 40px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.brands .container hr {
+  margin: 40px 0;
+}
+.container .brands__cards {
+  display: flex;
+  justify-content: space-between;
+}
+.brand {
+  padding: 0 10px;
+  margin-bottom: 40px;
+}
+footer {
+  height: 50vh;
+  background-image: url(../images/Rectangle\ 11.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+}
+footer .container {
+  display: flex;
+  justify-content: space-between;
+}
+.about__store {
+  width: 30%;
+}
+.categories {
+  width: 30%;
+}
+.newsletter {
+  width: 30%;
+}
+.aboutus__title {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+.aboutus__txt {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #ffffff;
+}
+.categories .choose {
+  display: flex;
+  flex-wrap: wrap;
+}
+.categories .choose a {
+  text-decoration: none;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #d0d0d0;
+  padding: 10px 20px;
+  background-color: #0f0f0f;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+form {
+  margin-top: 40px;
+}
+input {
+  padding: 10px 10px;
+}
+
+.enter {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  background: rgba(255, 255, 255, 0.4);
+  color: #ffffff;
+  border: none;
+  outline: none;
+}
+input::placeholder {
+  color: #d0d0d0;
+}
+button {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  text-transform: uppercase;
+  background: #0f0f0f;
+  border: none;
+  outline: none;
+  padding: 10px 18px;
+  cursor: pointer;
+}
+
+@media (max-width: 1400px) {
+}
+@media (max-width: 1200px) {
+}
+@media (max-width: 992px) {
+}
+@media (max-width: 768px) {
+  .contact .container {
+    width: 90%;
+    justify-content: space-between;
+  }
+  .burger__icon {
+    display: block;
+  }
+  header nav {
+    display: none;
+  }
+  header .container {
+    width: 90%;
+  }
+  .top {
+    height: 100%;
+    flex-direction: column;
+    padding-top: 20px;
+  }
+  .top .left {
+    width: 100%;
+  }
+  .top .left hr {
+    margin: 35px 0;
+  }
+  #season__slider {
+    justify-content: center;
+    gap: 20px;
+  }
+  .top .right {
+    height: 60vh;
+    width: 100%;
+  }
+  .bottom {
+    flex-direction: column;
+    height: 98vh;
+  }
+  .bottom .left {
+    width: 100%;
+    height: 70vh;
+    order: 1;
+    background-position: center center;
+  }
+  .bottom .right {
+    width: 100%;
+    padding-top: 60px;
+    margin-bottom: 65px;
+  }
+  .bottom .right p {
+    width: 80%;
+  }
+  #new__slider {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow: scroll;
+  }
+  #new__slider .clock {
+    padding-left: 5px;
+    margin-right: 7px;
+  }
+  .brands__cards {
+    width: 270px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  footer {
+    height: 100vh;
+    background-position: center center;
+  }
+  footer .container {
+    width: 90%;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .about__store {
+    width: 40%;
+    text-align: center;
+  }
+  .aboutus__title {
+    margin-top: 0;
+  }
+  .categories .aboutus__title {
+    margin-top: 77px;
+  }
+  .categories {
+    width: 40%;
+  }
+  .categories .choose {
+    justify-content: center;
+  }
+  .newsletter {
+    width: 40%;
+    align-items: center;
+  }
+  .aboutus__title {
+    text-align: center;
+  }
+  .aboutus__txt {
+    text-align: center;
+  }
+  form {
+    width: 320px;
+  }
+}
+@media (max-width: 576px) {
+  .contact .left__content div,
+  .contact__txt {
+    display: none;
+  }
+  .burger__icon {
+    display: block;
+  }
+  header nav {
+    display: none;
+  }
+  header .container {
+    width: 90%;
+  }
+  .ramka {
+    width: 90%;
+  }
+  main > p {
+    width: 85%;
+  }
+  .top {
+    height: 100%;
+    flex-direction: column;
+    padding-top: 20px;
+  }
+  .top .left {
+    width: 100%;
+  }
+  #season__slider {
+    flex-direction: column;
+    align-items: center;
+  }
+  .clock {
+    margin-bottom: 20px;
+  }
+  .top .right {
+    width: 100%;
+    background-position: left;
+  }
+  .bottom {
+    flex-direction: column;
+    height: 100%;
+  }
+  .bottom .left {
+    width: 100%;
+    height: 35vh;
+    order: 1;
+    background-position: center center;
+  }
+  .bottom .right {
+    width: 100%;
+    padding-top: 50px;
+    margin-bottom: 50px;
+  }
+  .bottom .right p {
+    width: 80%;
+  }
+  .new .container h1 {
+    padding-top: 60px;
+  }
+  .new .container hr {
+    margin-bottom: 40px;
+  }
+  .new .container {
+    padding-bottom: 30px;
+  }
+  #new__slider {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow: scroll;
+  }
+  #new__slider .clock {
+    padding-left: 10px;
+    margin-right: 15px;
+  }
+  .brands__cards {
+    flex-direction: column;
+    align-items: center;
+  }
+  .brand a img{
+    width: 100%;
+  }
+  footer {
+    height: fit-content;
+  }
+  footer .container {
+    width: 90%;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .about__store {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+  }
+  .categories {
+    width: 100%;
+  }
+  .categories .choose {
+    justify-content: space-around;
+  }
+  .aboutus__title {
+    text-align: center;
+    margin: 40px 0 30px;
+  }
+  .newsletter {
+    width: 100%;
+  }
+}
