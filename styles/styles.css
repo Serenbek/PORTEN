@@ -534,7 +534,7 @@ button {
     justify-content: space-evenly;
   }
   footer {
-    height: 100vh;
+    height: fit-content;
     background-position: center center;
   }
   footer .container {
@@ -570,7 +570,7 @@ button {
     text-align: center;
   }
   form {
-    width: 320px;
+    width: 325px;
   }
 }
 @media (max-width: 576px) {
@@ -687,6 +687,9 @@ button {
     justify-content: center;
     margin: 25px auto;
   }
+  form {
+    width: 325px;
+}
   input {
     padding: 10px 5px;
   }
