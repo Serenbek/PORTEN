@@ -144,9 +144,11 @@ main > p {
 .season {
   background-color: #000000;
   color: #ffffff;
+  /* padding-top: 30px; */
 }
 .top {
-  height: 85vh;
+  height: 70vh;
+  width: 100%;
   display: flex;
 }
 .top .left {
@@ -155,7 +157,6 @@ main > p {
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  padding: 0 20px;
 }
 .top .left h1 {
   font-family: "Playfair Display";
@@ -172,18 +173,17 @@ main > p {
   margin: 25px 0;
 }
 .clocks {
-  width: 100%;
+  max-width: 100%;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin-bottom: 40px;
+  gap: 30px;
 }
-.new .container .clocks .clock {
-  margin-bottom: 20px;
-}
-.clock div {
+.clock__img {
+  max-width: 215px;
+  min-height: 250px;
   background-color: #191b1c;
-  padding: 55px 22px;
+  padding-top: 20px;
 }
 .clock p {
   font-family: "Playfair Display";
@@ -206,7 +206,7 @@ main > p {
   background-image: url(../images/Rectangle\ 8.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: left;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
