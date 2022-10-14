@@ -177,7 +177,6 @@ main > p {
   max-height: 300px;
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
   gap: 30px;
 }
 .clock__img {
@@ -352,7 +351,6 @@ main > p {
   color: #ffffff;
 }
 .brands .container {
-  /* height: 30vh; */
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -613,11 +611,14 @@ button {
     width: 100%;
   }
   #season__slider {
+    max-width: 216px;
     flex-direction: column;
-    align-items: center;
+    max-height: 915px;
+    margin-bottom: 30px;
   }
-  .clock {
-    margin-bottom: 20px;
+  #season__slider .clock {
+    padding-left: 10px;
+    margin-right: 15px;
   }
   .top .right {
     width: 100%;
@@ -640,6 +641,9 @@ button {
   }
   .bottom .right p {
     width: 80%;
+  }
+  .new {
+    height: 65vh;
   }
   .new .container h1 {
     padding-top: 60px;
