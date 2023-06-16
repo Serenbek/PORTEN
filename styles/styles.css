@@ -147,7 +147,7 @@ main > p {
   color: #ffffff;
 }
 .top {
-  height: 70vh;
+  min-height: 70vh;
   width: 100%;
   display: flex;
 }
@@ -478,13 +478,13 @@ button {
 }
 
 @media (max-width: 1300px) {
-  .top .left::-webkit-scrollbar {
-    width: 0;
-  }
   #season__slider {
     width: 530px;
-    overflow-x: scroll;
+    overflow: scroll;
     gap: 20px;
+  }
+  #season__slider::-webkit-scrollbar {
+    width: 0;
   }
 }
 @media (max-width: 1100px) {
