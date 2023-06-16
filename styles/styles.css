@@ -145,7 +145,6 @@ main > p {
 .season {
   background-color: #000000;
   color: #ffffff;
-  /* padding-top: 30px; */
 }
 .top {
   height: 70vh;
@@ -479,6 +478,9 @@ button {
 }
 
 @media (max-width: 1300px) {
+  .top .left::-webkit-scrollbar {
+    width: 0;
+  }
   #season__slider {
     width: 530px;
     overflow-x: scroll;
@@ -636,9 +638,6 @@ button {
   }
   .top .left {
     width: 100%;
-  }
-  .top .left::-webkit-scrollbar {
-    width: 0;
   }
   #season__slider {
     overflow-x: inherit;
